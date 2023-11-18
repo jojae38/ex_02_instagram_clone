@@ -59,6 +59,7 @@ class SearchTextBar extends StatelessWidget {
 }
 
 final gridItems = List.generate(30, (index) => Colors.green.shade300);
+//칼라로 된 목 데이터 생성
 
 class SearchGrid extends StatelessWidget {
   const SearchGrid({super.key});

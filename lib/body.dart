@@ -12,6 +12,7 @@ class InstaBody extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     if(index == 0)
+    //인덱스 값에 따른 화면전환
       {
         return HomeScreen();
       }
