@@ -45,11 +45,13 @@ class _InstaCloneHomeState extends State<InstaCloneHome> {
     super.initState();
     index = 0;
   }
+  //initState를 통해 index 값 초기화
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
+      appBar: index==0?AppBar(
+        //AppBar가 Search로 갔을 때 보이지 않기에 index 값에 따른 삼항연산자를 넣어준다.
         centerTitle: false,
         title: Text(
           'Instagram',
@@ -76,7 +78,7 @@ class _InstaCloneHomeState extends State<InstaCloneHome> {
           ),
         ],
         //구글 폰트를 추가해준 후 넣어준다.
-      ),
+      ):null,
       body: InstaBody(index: index),
       bottomNavigationBar: BottomNavigationBar(
         onTap: (newindex){

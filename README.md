@@ -1,16 +1,25 @@
 # ex_02_instagram_clone
 
-A new Flutter project.
+기본적인 인스타그램 앱입니다.
 
-## Getting Started
+예시 이미지
+<p align="center">
+    <img src="./example_image/ex_01.png" width="200" height="420"/>
+    <img src="./example_image/ex_02.png" width="200" height="420"/>
+    <img src="./example_image/ex_03.png" width="200" height="420"/>
+    <img src="./example_image/ex_04.png" width="200" height="420"/>
+</p>
 
-This project is a starting point for a Flutter application.
+기능
 
-A few resources to get you started if this is your first Flutter project:
+인스타그램 앱 기본 UI
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+개선할 점
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+로그인 기능  
+피드 글 확장 기능  
+최신 스토리 알림 및 확인  
+본인 글 확인 기능  
+서버에 사진이나 글 올리기 요청  
+서버에 타인의 글 사진 검색 요청  
+DM 기능  
